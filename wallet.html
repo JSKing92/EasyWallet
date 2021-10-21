@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>MyWallet</title>
+  </head>
+  <body>
+    <h1 class="t-stroke t-shadow">MyWallet</h1>
+    <div class="contenedor">
+      <div class="movimientos">
+        <fieldset>
+          <legend>Movimientos</legend>
+          <div class="disponible">
+            <p>Disponible</p>
+            <p id="disponible">$25000000</p>
+          </div>
+          <div class="asignar">
+            <select  id="selecc" name="OS">
+              <option id="bol1" value="1">Bolsillo 1</option>
+              <option id="bol2" value="2">Bolsillo 2</option>
+              <option id="bol3" value="3">Bolsillo 3</option>
+            </select>
+            <input id="cantidad" type="number" placeholder="Cantidad" />
+          </div>
+          <button id="enviar" class="boton">Enviar a Bolsillo</button>
+        </fieldset>
+      </div>
+      <div class="bolsillos">
+        <fieldset>
+          <legend id="bolsi1">Bolsillo 1</legend>
+          <div class="disponible">
+            <p>Cantidad</p>
+            <p id="cant1">$0</p>
+          </div>
+          <button>Devolver</button>
+        </fieldset>
+        <fieldset>
+          <legend id="bolsi2">Bolsillo 2</legend>
+          <div class="disponible">
+            <p>Cantidad</p>
+            <p id="cant2">$0</p>
+          </div>
+          <button>Devolver</button>
+        </fieldset>
+        <fieldset>
+          <legend id="bolsi3">Bolsillo 3</legend>
+          <div class="disponible">
+            <p>Cantidad</p>
+            <p id="cant3">$0</p>
+          </div>
+          <button>Devolver</button>
+        </fieldset>
+      </div>
+    </div>
+    <script src="funciones2.js"></script>
+  </body>
+</html>

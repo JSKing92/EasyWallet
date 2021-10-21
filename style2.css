@@ -1,0 +1,100 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+.bolsillos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bolsillos fieldset{
+    width: 25%;
+    text-align: center;
+}
+
+.movimientos{
+    width: 28%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.asignar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+
+.asignar select{
+    width: 40%;
+}
+
+.disponible{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-around;
+}
+
+.disponible p{
+    color:  #24c716;
+}
+
+select{
+    color: #24c716;
+}
+
+button{
+    background-color: #24c716;
+    color: black;
+}
+
+.t-stroke {
+    color: #24c716;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+    -moz-text-stroke-color: #24c716;
+    -webkit-text-stroke-color:rgb(15, 14, 14);
+  }
+  
+  .t-shadow {
+  
+      text-shadow: 7px 7px rgb(165, 161, 161);
+    
+    }
+
+    .boton{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+
+    legend{
+        color: #24c716;
+    }
+
+    fieldset{
+        border: 2px solid #24c716;
+        border-radius: 5px;
+    }
+
+    input{
+        color: #24c716;
+    }
+
+    button{
+        border-radius: 5px;
+    }
